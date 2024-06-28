@@ -1,0 +1,53 @@
+body{
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; 
+}
+
+* {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+img{
+    flex-direction: column;
+    width: 8rem;
+}
+
+.navbar a{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #03470c;
+    margin-left: 3rem;
+}
+
+#trabalhe{
+    background-color: #00e751;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+.home-img {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 700px;
+    height: 500px;
+}
+
+.home-img img{
+    width: 100%;
+    height: 100%;
+}
