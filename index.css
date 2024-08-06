@@ -6,7 +6,6 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     border: none;
-    background-color: #ffffff;
 }
 
 main{
@@ -14,11 +13,24 @@ main{
 }
 
 :root{
-    --primary-color:rgb(0, 122, 16);
-    --second-color:rgb(2, 58, 39);
-    --text-color:rgb(149, 221, 90);
+    --primary-color:#003223;
+    --second-color:#003223;
+    --text-color:#003223;
 }
 
+.btn {
+    display: inline-block;
+    padding: 1rem 5.6rem;
+    background: var(--primary-color);
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
 
 .footer{
     background-color: var(--second-color);
@@ -28,9 +40,9 @@ main{
 }
 
 .footer .social img{
-    mix-blend-mode: multiply;
-    width: 10rem;
-    margin-top: 1rem;
+    width: 12rem;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
 }
 
 .footer .social{
@@ -42,13 +54,15 @@ main{
 
 .footer .social h3{
     background-color: var(--primary-color);
-    color: #fff;
+    color: #AFD254;
+    font-size: 18px;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .footer .social a{
     font-size: 25px;
+    background-color: #fff;
     color: #046b00;
     width: 42px;
     height: 42px;
@@ -69,16 +83,15 @@ main{
     background-color: var(--second-color);
     margin-top: 0;
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
     margin-bottom: -10px;
     text-align: center;
 }
 
 .footer ul h3{
-    color: #ffffff;
+    color: #AFD254;
     background-color: var(--second-color);
-    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -90,7 +103,7 @@ main{
 }
 
 .footer ul li a:hover{
-    border-bottom: 2px solid var(--text-color);
+    border-bottom: 2px solid #AFD254;
 }
 
 .footer ul li{
@@ -101,9 +114,49 @@ main{
 
 .footer .copyright{
     background-color: var(--second-color);
-    margin-top: 50px;
+    margin-top: 40px;
     padding-bottom: 1rem;
     text-align: center;
     font-size: 16px;
     color: #fff;
+}
+
+.footer form{
+    max-width: 70rem;
+    border-radius: 10px;
+    margin: 0.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: #AFD254;
+}
+
+.footer form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer form .input-box input{
+    width: 90%;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #000000;
+    background: #fff;
+    border-radius: 0.8rem;
+    border: 2px solid var(--);
+    margin: 0.8rem 0;
+    resize: none;
+}
+
+.footer form h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.footer form .btn{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
