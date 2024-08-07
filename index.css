@@ -6,6 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     border: none;
+    
 }
 
 main{
@@ -47,7 +48,7 @@ main{
 
 .footer .social{
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     color: #fff;
     background-color: var(--primary-color);
 }
@@ -81,18 +82,19 @@ main{
 
 .footer ul{
     background-color: var(--second-color);
-    margin-top: 0;
+    margin-top: -0.5rem;
     padding: 0;
     font-size: 16px;
     line-height: 1.6;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.footer ul h3{
-    color: #AFD254;
+.footer ul li{
     background-color: var(--second-color);
-    margin-bottom: 1rem;
+    display: flex;
+    padding: 0;
+    margin-left: 1rem;
 }
 
 .footer ul li a{
@@ -104,12 +106,6 @@ main{
 
 .footer ul li a:hover{
     border-bottom: 2px solid #AFD254;
-}
-
-.footer ul li{
-    background-color: var(--second-color);
-    display: inline-block;
-    padding: 0 15px;
 }
 
 .footer .copyright{
@@ -149,14 +145,79 @@ main{
 }
 
 .footer form h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    font-weight: 600;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    width: 15rem;
+   
     padding-top: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer form .btn{
     margin-top: 2rem;
     margin-bottom: 1rem;
+}
+
+details {
+    background-color: #003223;
+    color: #fff;
+    font-size: 1.5rem;
+    border: 1px solid #535353;
+    transition: 0.3s ease-in-out;
+}
+
+summary {
+    font-size: 1.2rem;
+    padding: .5em 1.3rem;
+    margin-left: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    transition: height 1s ease;
+    color: #AFD254;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:after {
+    content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #535353;
+    margin-bottom: .5em;
+
+}
+
+details[open] summary:after {
+    content: "\00D7";
+}
+
+details[open] div {
+    padding: .5em 1em;
+}
+
+.icon-payment{
+    display: inline;
+    justify-content: space-between;
+}  
+
+.icon-payment h2{
+    font-size: 1rem;
+    color: #AFD254;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 2.5rem;
+}
+
+.icon-payment img{
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: -1.5rem;
+    margin-left: 2.5rem;
 }
