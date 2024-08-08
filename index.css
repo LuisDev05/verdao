@@ -1,12 +1,15 @@
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: Arial, Helvetica, sans-serif;
+    
     text-decoration: none;
     border: none;
-    
+    font-family: "Nunito Sans", sans-serif;
 }
 
 main{
@@ -21,7 +24,7 @@ main{
 
 .btn {
     display: inline-block;
-    padding: 1rem 5.6rem;
+    padding: 1rem 5.65rem;
     background: var(--primary-color);
     border-radius: 1rem;
     font-size: 1.6rem;
@@ -145,14 +148,14 @@ main{
 }
 
 .footer form h2{
-    display: inline-block;
+    display: flex;
     justify-content: center;
     text-align: center;
-    width: 15rem;
-   
-    padding-top: 1.5rem;
-    margin-bottom: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .footer form .btn{
@@ -188,7 +191,7 @@ summary:after {
 }
 
 details[open] summary {
-    border-bottom: 1px solid #535353;
+    border-bottom: 1px solid #868484;
     margin-bottom: .5em;
 
 }
@@ -221,3 +224,4 @@ details[open] div {
     margin-right: -1.5rem;
     margin-left: 2.5rem;
 }
+
