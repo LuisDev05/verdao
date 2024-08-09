@@ -60,6 +60,7 @@ main{
     background-color: var(--primary-color);
     color: #AFD254;
     font-size: 18px;
+    font-weight: 400;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -217,7 +218,7 @@ details[open] div {
     padding-left: 2.5rem;
 }
 
-.icon-payment img{
+.icon-payment img {
     display: inline-block;
     flex-direction: row;
     flex-wrap: wrap;
@@ -225,3 +226,82 @@ details[open] div {
     margin-left: 2.5rem;
 }
 
+.icon-payment h2{
+    font-size: 1rem;
+    color: #AFD254;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 2.5rem;
+}
+
+.icon-paymento img {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: -1.5rem;
+    margin-left: 2.5rem;
+}
+
+.icon-paymento h2{
+    font-size: 1rem;
+    color: #AFD254;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 2.5rem;
+}
+
+@media(max-width:768px){
+    .footer .icon-paymento{
+        display: none;
+    }
+}
+
+@media(max-width:991px){
+    .footer .icon-paymento{
+        display: none;
+    }
+}
+
+@media(min-width:1285px){
+    .footer {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .footer form{
+        width: 40rem;
+        margin-left: 2rem;
+    }
+    .footer .social{
+        margin-left: 2.5rem;
+        margin-top: 2.5rem;
+
+    }
+    .footer .social h3{
+        margin-top: 1rem;
+    }
+    .footer .social a{
+        width: 2.5rem;
+        margin-top: 1rem;
+    }
+    .footer .icon-payment{
+        display: none;
+    }
+    .footer .icon-paymento {
+        margin-left: 1.5rem;
+        margin-top: -1rem; 
+      }
+    
+    .footer .social-container {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .footer .icon-paymento{
+        order: 2;
+      }
+      
+      .footer .social {
+        order: 1;
+      }
+}
