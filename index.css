@@ -254,10 +254,22 @@ details[open] div {
     .footer .icon-paymento{
         display: none;
     }
+    .footer .containe{
+        display: none;
+    }
+    .footer .copyrighte{
+        display: none;
+    }
 }
 
 @media(max-width:991px){
     .footer .icon-paymento{
+        display: none;
+    }
+    .footer .containe{
+        display: none;
+    }
+    .footer .copyrighte{
         display: none;
     }
 }
@@ -268,40 +280,100 @@ details[open] div {
         margin: 0;
         padding: 0;
     }
+
     .footer form{
-        width: 40rem;
+        width: 25rem;
         margin-left: 2rem;
     }
+
     .footer .social{
-        margin-left: 2.5rem;
-        margin-top: 2.5rem;
+        margin-right: 5rem;
+        margin-top: 1rem;
 
     }
+
     .footer .social h3{
-        margin-top: 1rem;
+        margin-top: 1.5rem;
     }
+
     .footer .social a{
         width: 2.5rem;
         margin-top: 1rem;
     }
+
     .footer .icon-payment{
         display: none;
     }
+
+    .footer .container{
+        display: none;
+    }
+
     .footer .icon-paymento {
         margin-left: 1.5rem;
-        margin-top: -1rem; 
-      }
+        margin-top: 1.5rem; 
+    }
     
     .footer .social-container {
         display: flex;
         flex-direction: column;
-      }
+    }
       
       .footer .icon-paymento{
         order: 2;
-      }
+    }
       
-      .footer .social {
+    .footer .social {
         order: 1;
-      }
+    }
+
+    .footer .containe{
+        display: block;
+        padding-top: 3.5rem;
+        padding-left: 1rem;
+    }
+
+    .footer .containe h2{
+        font-size: 1.2rem;
+        text-align: left;
+        padding: .5rem 1.3rem;
+        margin-right: 1rem;
+        color: #AFD254;
+    }
+
+    .footer ul{
+        padding-top: 2rem;
+        text-align: left;
+    }
+
+    .footer ul li{
+        padding-bottom: 5px;
+    }
+
+    .icon-pagamento img {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    .icon-pagamento h3{
+        font-size: 1rem;
+        color: #AFD254;
+        padding-top: 2rem;
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+    }
+    
+    .footer .copyright{
+        display: none;
+    }
+
+    .footer .copyrighte{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    }
+   
 }
