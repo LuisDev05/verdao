@@ -250,7 +250,7 @@ details[open] div {
     padding-left: 2.5rem;
 }
 
-@media(max-width:768px){
+@media(min-width:768px) and (max-width:1200px){
     .footer .icon-paymento{
         display: none;
     }
@@ -274,7 +274,7 @@ details[open] div {
     }
 }
 
-@media(min-width:1285px){
+@media(min-width:1200px){
     .footer {
         display: flex;
         margin: 0;
